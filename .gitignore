@@ -41,6 +41,16 @@ venv.bak/
 !.env.sample
 *.env
 
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Vector stores & local databases
+*.faiss
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
 # IDEs and Editors
 .idea/
 .vscode/
